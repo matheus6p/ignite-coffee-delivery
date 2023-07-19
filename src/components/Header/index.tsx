@@ -1,17 +1,17 @@
-
-import { HeaderContainer } from "./styles"
-import logo from '../../assets/Logo.svg'
-import { NavLink } from "react-router-dom"
+import { HeaderContainer } from "./styles.ts";
+import Logo from '../../assets/Logo.svg'
+import { Cart } from "./components/cart/index.tsx";
+import { Location } from "./components/location/index.tsx";
 
 export function Header() {
   return (
     <HeaderContainer>
-      <img src={logo} alt="Logo Coffee Delivery" />
+      <img src={Logo} alt="" />
       <nav>
-        <NavLink to="/" title="Carrinho">
-          Carrinho
-        </NavLink>
+          <Location />
+          <Cart />
       </nav>
+
     </HeaderContainer>
   )
 }
