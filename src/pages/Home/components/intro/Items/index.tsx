@@ -1,6 +1,6 @@
 import { Coffee, Package, ShoppingCart, Timer } from "phosphor-react";
 import { ItemContainer, Icon, Item, Row } from "./styles";
-import { defaultTheme } from "../../../../styles/themes/default";
+import { defaultTheme } from "../../../../../styles/themes/default";
 
 export function Items() {
   return (
