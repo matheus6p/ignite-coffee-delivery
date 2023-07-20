@@ -1,5 +1,5 @@
 import coffee from "../../../../assets/Imagem.svg"
-import { Items } from "../Items";
+import { Items } from "./Items";
 import { IntroContainer } from "./styles";
 
 export function Intro() {
