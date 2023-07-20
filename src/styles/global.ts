@@ -56,4 +56,8 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 400;
   }
 
+  .d-flex {
+    display: flex;
+  }
+
 `;
