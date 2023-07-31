@@ -10,7 +10,7 @@ export function Intro() {
         <div className="text-l">Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</div>
         <Items />
       </div>
-      <img src={coffee} alt="" />
+      <div><img src={coffee} alt="" /></div>
     </IntroContainer>
   )
 }

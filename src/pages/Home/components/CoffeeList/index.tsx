@@ -3,9 +3,19 @@ import { CoffeeListContainer } from "./styles";
 
 export function CoffeeList() {
   return (
-    <CoffeeListContainer>
+    <div>
       <h1 className="title-l">Nossos Cafés</h1>
-      <CoffeeCard />
-    </CoffeeListContainer>
+      <CoffeeListContainer>
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+        <CoffeeCard />
+      </CoffeeListContainer>
+    </div>
   )
 }
