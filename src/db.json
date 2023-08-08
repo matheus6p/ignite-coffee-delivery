@@ -6,7 +6,7 @@
       "price": 9.90,
       "description": "O tradicional café feito com água quente e grãos moídos",
       "category": ["tradicional"],
-      "url_img": "./assets/products/expresso.svg"
+      "url_img": "/src/assets/products/expresso.svg"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "price": 9.90,
       "description": "Expresso diluído, menos intenso que o tradicional",
       "category": ["tradicional"],
-      "url_img": "./assets/products/americano.svg"
+      "url_img": "/src/assets/products/americano.svg"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "price": 9.90,
       "description": "Café expresso tradicional com espuma cremosa",
       "category": ["tradicional"],
-      "url_img": "./assets/products/expresso-cremoso.svg"
+      "url_img": "/src/assets/products/expresso-cremoso.svg"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "price": 9.90,
       "description": "Bebida preparada com café expresso e cubos de gelo",
       "category": ["tradicional", "gelado"],
-      "url_img": "./assets/products/cafe-gelado"
+      "url_img": "/src/assets/products/cafe-gelado.svg"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "price": 9.90,
       "description": "Meio a meio de expresso tradicional com leite vaporizado",
       "category": ["tradicional", "com leite"],
-      "url_img": "./assets/products/cafe-com-leite.svg"
+      "url_img": "/src/assets/products/cafe-com-leite.svg"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "price": 9.90,
       "description": "Uma dose de café expresso com o dobro de leite e espuma cremosa",
       "category": ["tradicional", "com leite"],
-      "url_img": "./assets/products/latte.svg"
+      "url_img": "/src/assets/products/latte.svg"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "price": 9.90,
       "description": "Bebida com canela feita de doses iguais de café, leite e espuma",
       "category": ["tradicional", "com leite"],
-      "url_img": "./assets/products/capuccino"
+      "url_img": "/src/assets/products/capuccino.svg"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "price": 9.90,
       "description": "Café expresso misturado com um pouco de leite quente e espuma",
       "category": ["tradicional", "com leite"],
-      "url_img": "./assets/products/macchiato.svg"
+      "url_img": "/src/assets/products/macchiato.svg"
     },
     {
       "id": 9,
@@ -70,7 +70,7 @@
       "price": 9.90,
       "description": "Café expresso com calda de chocolate, pouco leite e espuma",
       "category": ["tradicional", "com leite"],
-      "url_img": "./assets/products/mochaccino.svg"
+      "url_img": "/src/assets/products/mochaccino.svg"
     },
     {
       "id": 10,
@@ -78,7 +78,7 @@
       "price": 9.90,
       "description": "Bebida feita com chocolate dissolvido no leite quente e café",
       "category": ["especial", "com leite"],
-      "url_img": "./assets/products/chocolate-quente"
+      "url_img": "/src/assets/products/chocolate-quente.svg"
     },
     {
       "id": 11,
@@ -86,7 +86,7 @@
       "price": 9.90,
       "description": "Drink gelado de café expresso com rum, creme de leite e hortelã",
       "category": ["especial", "alcoólico", "gelado"],
-      "url_img": "./assets/products/cubano.svg"
+      "url_img": "/src/assets/products/cubano.svg"
     },
     {
       "id": 12,
@@ -94,7 +94,7 @@
       "price": 9.90,
       "description": "Bebida adocicada preparada com café e leite de coco",
       "category": ["especial"],
-      "url_img": "./assets/products/havaiano.svg"
+      "url_img": "/src/assets/products/havaiano.svg"
     },
     {
       "id": 13,
@@ -102,7 +102,7 @@
       "price": 9.90,
       "description": "Bebida preparada com grãos de café árabe e especiarias",
       "category": ["especial"],
-      "url_img": "./assets/products/arabe.svg"
+      "url_img": "/src/assets/products/arabe.svg"
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "price": 9.90,
       "description": "Bebida a base de café, uísque irlandês, açúcar e chantilly",
       "category": ["especial", "alcoólico"],
-      "url_img": "./assets/products/irlandes.svg"
+      "url_img": "/src/assets/products/irlandes.svg"
     }
   ]
 }

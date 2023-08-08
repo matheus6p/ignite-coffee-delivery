@@ -6,6 +6,7 @@ import { ProductContext } from "../../../../../../context/ProductsContext";
 
 export function CoffeeCard() {
   const { products } = useContext(ProductContext);
+  
   return (
     products.map(product => {
       return (
@@ -24,7 +25,7 @@ export function CoffeeCard() {
           <div className="card_description text-s">{product.description}</div>
           <div className="card_buy">
             <div className="card_buy-price ">
-              R$ <span className="title-m">{product.price}</span>
+              R$ <span className="title-m">{product.price.toFixed(2)}</span>
             </div>
             <div className="card_buy-actions">
               <div className="card_buy-actions_count text-m">

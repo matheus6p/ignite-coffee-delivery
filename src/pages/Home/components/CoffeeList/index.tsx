@@ -7,14 +7,6 @@ export function CoffeeList() {
       <h1 className="title-l">Nossos Cafés</h1>
       <CoffeeListContainer>
         <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
-        <CoffeeCard />
       </CoffeeListContainer>
     </div>
   )

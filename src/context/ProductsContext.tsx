@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
-import Axios from 'axios';
+import { api } from '../services/api';
 
 export interface IProduct {
   id: string;
@@ -23,17 +23,15 @@ export const ProductContext = createContext({} as ProductsContext);
 export function ProductsContextProvider({ children }: ProductsContextProviderProps) {
   const [products, setProducts] = useState<IProduct[]>([]);
 
-  useEffect(() => {
-    async function getProducts(): Promise<void> {
-      try {
-        const response = await Axios.get<IProduct[]>('http://localhost:5555/products');
-        setProducts(response.data);
-        console.log(response.data)
-      } catch (err) {
-        console.log(err);
-      }
+  async function getProducts(): Promise<void> {
+    try {
+      const response = await api.get<IProduct[]>('/products');
+      setProducts(response.data);
+    } catch (err) {
+      console.log(err);
     }
-
+  }
+  useEffect(() => {
     void getProducts()
   }, []);
 
